@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import * as React from "react";
 
 function Table({ data }: { data: { headers: string[]; rows: string[][] } }) {
   let headers = data.headers.map((header, index) => (
